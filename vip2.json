@@ -1,0 +1,24 @@
+{
+    "spider": "https://gitlab.com/duan233/public/-/raw/main/biubiu.jar",
+    "wallpaper": "https://picsum.photos/1080/1920",
+    "sites": [
+        {
+            "key": "csp_xb_zbk",
+            "name": "真不卡",
+            "type": 3,
+            "api": "csp_XBiubiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://www.zbkk.net/vodshow/{cateId}--------{catePg}---.html"
+        }
+        {
+            "key": "♥91麻豆",
+            "name": "♥91麻豆源",
+            "type": 1,
+            "api": "https://91md.me/api.php/provide/vod/",
+            "searchable": 0,
+            "quickSearch": 0
+        },
+    ]
+}
