@@ -1,26 +1,17 @@
 {
-    "spider": "https://agit.ai/hu/hcr/raw/branch/master/spider.jar;md5;66608151244300825855850415815218",
-    "lives": [
+    "spider": "https://gitlab.com/duan233/public/-/raw/main/biubiu.jar",
+    "wallpaper": "https://picsum.photos/1080/1920",
+    "sites": [
         {
-            "name": "live",
-            "boot": false,
-            "type": 0,
-            "url": "https://agit.ai/hu/hcr/raw/branch/master/tv.txt",
-            "playerType": 2,
-            "ua": "okhttp/3.8.1",
-            "timeout": 20,
-            "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
-            "logo": "shturl.cc/kvRs6eMwHWlo6Zl{name}.png"
-        }
-    ],
-    "wallpaper": "https://wallpaper-1tg.pages.dev/",
-  "wallpaper": "https://wallpaper-1tg.pages.dev/",
-  "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
-  "sites": [
-    {"key": "drpy_js_豆瓣","name": "搜索 • 豆瓣","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/drpy.js","searchable": 1,"quickSearch": 0,"changeable": 0},
-    {"key": "配置中心","name": "配置 • 中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.597}},
-    {"key": "本地","name": "本地 • 视频","type": 3,"api": "csp_LocalFile"},
-    {"key": "预告","name": "新片 • 预告","type": 3,"api": "csp_YGP","searchable": 0},
-    {"key": "♥91麻豆","name": "♥91麻豆源", "type": 1,"api": "https://91md.me/api.php/provide/vod/", "searchable": 0, "quickSearch": 0}
+            "key": "csp_biubiu_在线之家",
+            "name": "[默认]防尴尬源",
+            "type": 3,
+            "api": "csp_XBiubiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://shturl.cc/TC9kPWCsqj1KStClTucB6JtokhB2fTtzwK981yPteBI6evUwrsxpdS7h1HekrKBNa5gFIxpMqjapGeceO12kiu4hNpTOolidbHauaoYMfH2m2WVyUZaL6DHItcsxDd9OpP"
+        }，
+        {"key": "♥91麻豆","name": "♥91麻豆源", "type": 1,"api": "https://91md.me/api.php/provide/vod/", "searchable": 0, "quickSearch": 0}
     ]
 }
